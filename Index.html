@@ -2,35 +2,49 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Inicio | EEST N°2</title>
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
   <header>
     <nav class="navbar">
-      <button class="btn-nav" onclick="navigateTo('index.html')">Inicio</button>
-      <button class="btn-nav" onclick="navigateTo('nosotros.html')">Nosotros</button>
-      <button class="btn-nav" onclick="navigateTo('biblioteca.html')">Biblioteca</button>
-      <button class="btn-nav" onclick="navigateTo('contacto.html')">Contacto</button>
+      <button onclick="window.location.href='pages/noticias.html'" class="nav-button">Noticias</button>
+      <button onclick="window.location.href='pages/escuela.html'" class="nav-button">Escuela</button>
+      <button onclick="window.location.href='pages/nosotros.html'" class="nav-button">Nosotros</button>
+      <button onclick="window.location.href='pages/contacto.html'" class="nav-button">Contacto</button>
     </nav>
   </header>
 
   <main>
-    <section class="carrera">
-      <h1>Bienvenidos a la E.E.S.T. N.º 2</h1>
-      <p>Seleccioná una orientación para más información:</p>
-      <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1.5rem;">
-        <button class="btn-nav" onclick="navigateTo('escuela/mecanica.html')">Mecánica</button>
-        <button class="btn-nav" onclick="navigateTo('escuela/informatica.html')">Informática</button>
-        <button class="btn-nav" onclick="navigateTo('escuela/mecanica.html')">Mecánica</button>
-        <button class="btn-nav" onclick="navigateTo('escuela/electromecanica.html')">Electromecánica</button>
-        <button class="btn-nav" onclick="navigateTo('escuela/mmo.html')">M.M.O.</button>
+    <section class="noticias-inicio">
+      <h2>Últimas Noticias</h2>
+      <p>Aquí aparecerán las noticias más recientes de la institución.</p>
+    </section>
+
+    <section class="carrusel">
+      <img src="assets/img/carrusel1.jpg" alt="Imagen 1" class="carrusel-img">
+      <img src="assets/img/carrusel2.jpg" alt="Imagen 2" class="carrusel-img oculto">
+      <img src="assets/img/carrusel3.jpg" alt="Imagen 3" class="carrusel-img oculto">
+    </section>
+
+    <section class="directivos">
+      <h2>Equipo Directivo</h2>
+      <div class="directivos-grid">
+        <div class="directivo">
+          <h3>Director</h3>
+          <p>Nombre del Director</p>
+        </div>
+        <div class="directivo">
+          <h3>Vicedirector</h3>
+          <p>Nombre del Vicedirector</p>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 E.E.S.T. N.º 2 - Olavarría</p>
+    <p>&copy; 2025 EEST N°2 - Todos los derechos reservados.</p>
   </footer>
   <script src="assets/js/script.js"></script>
 </body>

@@ -1,0 +1,70 @@
+/* Reset y tipografía */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  transition: opacity 0.4s ease;
+}
+
+/* Navbar */
+header {
+  background-color: #002b5c;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn-nav {
+  background-color: #0056a3;
+  border: none;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-nav:hover {
+  background-color: #003f7d;
+}
+
+/* Contenido */
+main {
+  padding: 2rem;
+}
+
+.carrera {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.carrera h1 {
+  color: #002b5c;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  color: #666;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}

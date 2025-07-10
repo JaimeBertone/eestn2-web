@@ -82,7 +82,7 @@ main section h2 {
 .equipo-grid,
 .tecnicaturas-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 1.5rem;
   justify-items: center;
 }
@@ -94,7 +94,6 @@ main section h2 {
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 250px;
 }
 
 .miembro img {
@@ -116,4 +115,10 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
   font-size: 0.9rem;
+}
+
+.tecnicatura-img{
+  width: 100%;
+  height: 350px;
+  padding:-6%;
 }

@@ -83,7 +83,7 @@ main section h2 {
 .tecnicaturas-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 1.5rem;
+  gap: 5rem;
   justify-items: center;
 }
 
@@ -94,12 +94,20 @@ main section h2 {
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 100%;
+  background-color: #008040;
 }
-
+.miembro2, .tecnicatura {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
 .miembro img {
   width: 100%;
   max-width: 120px;
-  border-radius: 50%;
+  border-radius: 10%;
   margin-bottom: 0.5rem;
 }
 
